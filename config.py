@@ -7,7 +7,7 @@ class Config(object):
 
     API_HASH = os.environ.get("API_HASH", "578ce3d09fadd539544a327c45b55ee4")
 
-    DATABASE = os.environ.get("DATABASE", "")
+    DATABASE = os.environ.get("DATABASE", "mongodb+srv://bot1:bot1@cluster0.cuyh4kk.mongodb.net/?retryWrites=true&w=majority")
 
     DEV_NAME = os.environ.get("DEV_NAME", "Akhil")
 
